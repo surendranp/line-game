@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  #name-form, #game-controls, #canvas-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  canvas {
+    border: 2px solid black;
+    cursor: crosshair;
+  }
+  #instructions {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  button:hover{
+      background: #000;
+      color: white;
+  }
+
+  #message {
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+    display: none;
+  }

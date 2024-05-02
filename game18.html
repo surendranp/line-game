@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Line Drawing Game</title>
+ <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <div id="name-form">
+    <h2>Welcome to the Line Drawing Game!</h2>
+    <p>Please enter your name:</p>
+    <input type="text" id="username" placeholder="Enter your name">
+    <button onclick="startGame()">Submit</button>
+  </div>
+
+  <div id="game-controls" style="display: none;">
+    <h2>Instructions:</h2>
+    <p id="instructions">Draw a line over the shape shown on the canvas. Try to match the 
+        shape as closely as possible. Click "Start Game" to begin.</p>
+    
+    <button id="start-btn" onclick="startLevel()">Start Game</button>
+    <button id="clear-btn" onclick="clearCanvas()">Clear</button>
+  </div>
+
+  <div id="canvas-container" style="display: none;">
+    <canvas id="canvas" width="800" height="400"></canvas>
+    <div id="message"></div>
+  </div>
+
+  <script src="./script.js">
+    
+  </script>
+</body>
+</html>
